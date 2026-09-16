@@ -40,7 +40,20 @@ public class funçoes{
         }
     }
 
+    public static int produto(int a,int b){
+        int p = a*b;
+        return p;
 
+    }
+
+    public static void tamanho(int a,int b){
+        if(a>b){
+        JOptionPane.showMessageDialog(null,"O maior num é " + a);
+    }
+        else{
+            JOptionPane.showMessageDialog(null,"O maior num é " + b);        
+        }
+    }
 
     public static void main(){
 
