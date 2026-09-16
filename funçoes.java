@@ -14,8 +14,8 @@ public class funçoes{
         return a;
     }
 
-    public static void media(int a,int b,int c,int d){
-        int i = (a + b +c +d)/4;
+    public static void media(float a,float b,float c,float d){
+        float i = (a + b +c +d)/4;
         JOptionPane.showMessageDialog(null,"A media é "+i);
     }
 
@@ -82,15 +82,15 @@ public class funçoes{
                     break;
 
                     case "3":
-                        int a3,b3,c3,d3;
+                        float a3,b3,c3,d3;
                         String x3 =JOptionPane.showInputDialog(null,"Digite a primeira nota");
-                        a3 = Integer.parseInt(x3);
+                        a3 = Float.parseFloat(x3);
                         String y3 =JOptionPane.showInputDialog(null,"Digite a segunda nota");
-                        b3 = Integer.parseInt(y3);
+                        b3 = Float.parseFloat(y3);
                         String w3 =JOptionPane.showInputDialog(null,"Digite a terceira nota");
-                        c3 = Integer.parseInt(w3);
+                        c3 = Float.parseFloat(w3);
                         String z3 =JOptionPane.showInputDialog(null,"Digite a quarta nota");
-                        d3 = Integer.parseInt(z3);
+                        d3 = Float.parseFloat(z3);
                         media(a3,b3,c3,d3);
                     break;
 
@@ -125,7 +125,7 @@ public class funçoes{
                         String x6 =JOptionPane.showInputDialog(null,"Digite um grau");
                         a6 = Float.parseFloat(x6);
                         r6 = radianos(a6);
-                        JOptionPane.showMessageDialog(null,"O produto é " + r6);
+                        JOptionPane.showMessageDialog(null,"Esse grau em radianos é " + r6);
                     break;
                     
                     case "8":
