@@ -15,6 +15,11 @@ public class funçoes{
         return a;
     }
 
+    public static void media(int a,int b,int c,int d){
+        int i = (a + b +c +d)/4;
+        JOptionPane.showMessageDialog(null,"A media é "+i);
+    }
+
 
     public static void main(){
 
