@@ -112,14 +112,6 @@ public class funçoes{
                     break;
 
                     case "6":
-                        float a6,r6;
-                        String x6 =JOptionPane.showInputDialog(null,"Digite um grau");
-                        a6 = Float.parseFloat(x6);
-                        r6 = radianos(a6);
-                        JOptionPane.showMessageDialog(null,"O produto é " + r6);
-                    break;
-
-                    case "7":
                         int a7,b7;
                         String x7 =JOptionPane.showInputDialog(null,"Digite um numero");
                         a7 = Integer.parseInt(x7);
@@ -127,11 +119,19 @@ public class funçoes{
                         b7 = Integer.parseInt(y7);
                         tamanho(a7,b7);
                     break;
+
+                    case "7":
+                        float a6,r6;
+                        String x6 =JOptionPane.showInputDialog(null,"Digite um grau");
+                        a6 = Float.parseFloat(x6);
+                        r6 = radianos(a6);
+                        JOptionPane.showMessageDialog(null,"O produto é " + r6);
+                    break;
                     
                     case "8":
                         func = false;
                     break;
-                    
+
                     default:
                     JOptionPane.showMessageDialog(null, "Opção inválida");
 
