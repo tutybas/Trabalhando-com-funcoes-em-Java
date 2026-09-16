@@ -20,6 +20,27 @@ public class funçoes{
         JOptionPane.showMessageDialog(null,"A media é "+i);
     }
 
+    public static void primo (int a){
+        boolean primo = true;
+        for(int i=a-1; i>1; i--){
+            if( a % i == 0 ){
+                primo = false;
+                break;
+            }
+            else{
+                primo = true;
+
+            }
+        }
+        if(primo == true){
+            JOptionPane.showMessageDialog(null,"é primo");
+        }
+        else{
+            JOptionPane.showMessageDialog(null,"não é primo");               
+        }
+    }
+
+
 
     public static void main(){
 
