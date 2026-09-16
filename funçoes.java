@@ -55,6 +55,11 @@ public class funçoes{
         }
     }
 
+    public static float radianos(float a){
+        float z = (a * (float) 3.14)/180;
+        return z;
+
+    }
     public static void main(){
 
     }
